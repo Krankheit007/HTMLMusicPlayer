@@ -1,0 +1,166 @@
+body {
+    background: #0c1822;
+    margin: 50px 100px 50px;
+}
+
+h2 {
+    color: #F8F8FF;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Lucida Calligraphy", cursive;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+}
+
+div.audiobox {
+    background-color: #132438;
+    border:outset 8px #4682B4;
+    border-radius: 120px;
+    width: 640px;
+    height: 765px;
+    margin: 20px 0px 0px 300px;
+    float: left;
+}
+
+div.controlprogress {
+    margin: 15px auto 10px;
+}
+div.progress_bar {
+    width: 480px;
+    height: 3px;
+    background: linear-gradient(244deg, rgba(230,230,250,0) 0%,rgba(230,230,250,200) 50%,rgba(230,230,250,0) 100%);
+    border-radius: 45%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+}
+div.buffer_bar {
+    width: 480px;
+    height: 3px;
+    background: linear-gradient(244deg, rgba(70,130,180,0) 0%,rgba(70,130,180,220) 20%, rgba(70,130,180,220) 80%, rgba(70,130,180,0) 100%);
+    border-radius: 45%;
+    margin: auto;
+}
+div.progress {
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    overflow: hidden;
+}
+div.progress_button {
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 22px;
+    height: 22px;
+}
+div.btn {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background-color: #E6E6FA;
+    z-index: 6;
+}
+div.btn:hover {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    top: 0px;
+    left: 0px;
+    border: solid #E6E6FA 5px;
+    background-color: #092943;
+    margin: auto;
+}
+
+div.SongTime{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: 12px auto;
+}
+
+/*button*/
+div.controlbutton {
+    width: 400px;
+    margin: auto;
+}
+div.button {
+    float: left;
+    margin: 0px 6px;
+}
+button.play_control {
+    background-color: #F8F8FF;
+    border: solid 4px #092943;
+    color: #092943;
+    padding: 8px 12px;
+    border-radius: 45%;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+button.play_control:hover {
+    background-color: #36648B;
+    color: white;
+}
+.material-icons {
+    font-size: 36px;
+    text-align: center;
+}
+
+/*txt*/
+div.container {
+    float: left;
+    width: 520px;
+    height: 750px;
+    overflow: hidden;
+    margin: 30px 60px 30px;
+}
+div.lines {
+    width: 537px;
+    height: 750px;
+    overflow: auto;
+}
+p.line {
+    width: 520px;
+    margin: 6px 0px;
+    font-size: 20px;
+    font-family: "Segoe Print", cursive;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #F1F1F5;
+
+}
+b {
+    color: lightblue;
+    font-family: "Old English Text MT", fantasy;
+    font-size: 26px;
+}
+
+/*image*/
+.br {
+    position: relative;
+    border: inset 2px #161429;
+    border-radius: 20%;
+    margin: 60px 78px 0px;
+    width: 480px;
+    height: 480px;
+    overflow: hidden;
+}
+img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 480px;
+    height: 480px;
+    z-index: 7;
+}
+canvas {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 8;
+}
