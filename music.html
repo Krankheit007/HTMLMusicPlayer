@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Qifan Guan">
+    <meta name="keywords" content="{{lines['Title']}}, {{lines['Creator']}}, {{lines['Source']}}">
+    <meta name="description" content="{{lines['Description'][:200]}}">
+    <title>Music {{name}}</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/music.css" media="screen" />
+</head>
+<body>
+<div class="audiobox">
+    <audio @canplay="getDuration" @timeupdate="updateTime" src="/static/{{catagory}}/{{name}}.mp3"></audio>
+    <div class="br">
+        <canvas id="fft" width="480" height="480"></canvas>
+        <img src="/static/{{catagory}}/{{name}}.png">
+    </div><br>
+    <div>
+        <h2>{{name_}}</h2>
+    </div>
+
+    <div class="controlprogress">
+        <div class="progress_bar" id="bar">
+            <div class="progress_button">
+                <div class="btn"></div>
+            </div>
+            <div class="progress">
+                <div class="buffer_bar"></div>
+            </div>
+        </div>
+        <div class="SongTime">00:00&nbsp;|&nbsp;01:00</div> <!-- Time -->
+    </div>
+
+    <div class="controlbutton">
+        <div class="button">
+            <a href="/music/{{pre_}}">
+                <button id="pre" class="play_control">
+                    <i class="material-icons">skip_previous</i></button></a>
+        </div>
+        <div class="button">
+            <button id="back" class="play_control" onclick=skipBackward()>
+                <i class="material-icons">fast_rewind</i></button>
+        </div>
+        <div class="button">
+            <button id="play-pause" class="play_control" onclick=playMusic()>
+                <i class="material-icons">play_arrow</i></button>
+        </div>
+        <div class="button">
+            <button id="forward" class="play_control" onclick=skipForward()>
+                <i class="material-icons">fast_forward</i></button>
+        </div>
+        <div class="button">
+            <a href="/music/{{next_}}">
+                <button id="next" class="play_control">
+                    <i class="material-icons">skip_next</i></button></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/static/dsp.js"></script>
+<div class="container">
+    <div class="lines">
+        {% for k,v in lines.items() %}
+        <p class="line"><b>{{k}}</b> : {{v}}</p>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>

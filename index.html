@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>index</title>
+	<style type="text/css">
+		body {
+			background: url("/static/image/mail.png") bottom 10px left 6px fixed no-repeat,
+			linear-gradient(#191429, #465877, #1d272a);
+			margin: 50px 150px 50px;
+		}
+		h1{
+			color: #FFF8DC;
+			font-family: "Old English Text MT", sans-serif;
+			font-size: 80px;
+			text-align: center;
+			margin: 100px 50px 50px;
+		}
+
+		div.catagory {
+			width: 1600px;
+		}
+		div.song {
+			float: left;
+			width: 310px;
+			border: solid 1px #6c6798;
+			border-radius: 35px;
+			margin: 4px;
+		}
+		div.title {
+			color: #F8F8FF;
+			text-align: center;
+			height: 22px;
+			font-family: "Lucida Calligraphy", cursive;
+			font-size: 20px;
+			white-space: nowrap;
+		}
+		div.au {
+			width: 320px;
+			height: 35px;
+		}
+
+		.br {
+			border-radius: 20px;
+			margin: 15px 20px 10px;
+			width: 270px;
+			height: 270px;
+		}
+		.decoration {
+			margin: 0px 100px;
+			width: 300px;
+			position: relative;
+			left: 50%;
+			transform: translate(-83%,-100%);
+		}
+		.decoration2 {
+			margin: 0px 100px;
+			width: 500px;
+			position: absolute;
+			left: 50%;
+			top: 0%;
+			transform: translate(-70%,60%);
+		}
+	</style>
+</head>
+<body>
+<img src="/static/image/lace6.png" class="decoration2"><br>
+<div class="catagory">
+	<h1>English</h1>
+	<img src="/static/image/lace5.png" class="decoration"><br>
+	{% for i in eng %}
+	<div class="song">
+		<a href="/music/{{i}}">
+			<img src="/static/English/{{i}}.png" alt="{{i}}" class="br"><br>
+		</a>
+		<div class="title">
+			{{namelis.get(i)}}
+		</div><br>
+		<div class="au">
+			<audio controls controlslist="nodownload  nofullscreen noremoteplayback">
+				<source src="/static/English/{{i}}.mp3" type="audio/mpeg">
+			</audio>
+		</div><br>
+	</div>
+	{% endfor %}
+</div><br>
+<div class="catagory">
+	<h1>Japanese</h1>
+	<img src="/static/image/lace5.png" class="decoration"><br>
+	{% for i in jap %}
+	<div class="song">
+		<a href="/music/{{i}}">
+			<img src="/static/Japanese/{{i}}.png" alt="{{i}}" class="br"><br>
+		</a>
+		<div class="title">
+			{{namelis.get(i)}}
+		</div><br>
+		<div class="au">
+			<audio controls controlslist="nodownload  nofullscreen noremoteplayback">
+				<source src="/static/Japanese/{{i}}.mp3" type="audio/mpeg">
+			</audio>
+		</div><br>
+	</div>
+	{% endfor %}
+</div>
+<script type="text/javascript">
+	// 多个音频时播放一个
+	const audios = document.getElementsByTagName("audio");
+	// 暂停函数
+	function pauseAll() {
+		var self = this;
+		[].forEach.call(audios, function(i) {
+			// 将audios中其他的audio全部停止
+			i !== self && i.pause();
+		})
+	};
+	// 给play事件绑定暂停函数
+	[].forEach.call(audios, function(i) {
+		i.addEventListener('play', pauseAll.bind(i))
+	})
+</script>
+</body>
+</html>
