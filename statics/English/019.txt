@@ -1,0 +1,11 @@
+{
+    "Title":"Phantom Razor",
+    "Creator":"\u9ed2\u6ca2\u5927\u4f51",
+    "Date":"2018-08-08",
+    "Description":"\u9ed2\u6ca2\u5927\u4f51\u4e13\u8f91\u300aBLACK ALBUM 2\u300b",
+    "Language":"English",
+    "color":[
+        "black",
+        "cyan"
+    ]
+}
