@@ -1,0 +1,11 @@
+{
+    "Title":"The\u00a0Dawn",
+    "Creator":"Mike Zhou",
+    "Date":"2016-12-07",
+    "Description":"\u5404\u79cd\u5355\u66f2\u7684\u94a2\u7434\u7248\u672c\u7ffb\u594f \u4ee5\u53ca\u6539\u7f16\u3002",
+    "Language":"English",
+    "color":[
+        "black",
+        "white"
+    ]
+}
