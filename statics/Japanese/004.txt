@@ -1,0 +1,17 @@
+{
+    "Title":"\u6b20\u3051\u305f\u6708",
+    "Creator":"\u5bae\u8107\u8a69\u97f3",
+    "Date":"2016-01-06",
+    "Description":"\u306a\u3093\u3068!\u65b0\u66f2\u300c\u6b20\u3051\u305f\u6708\u300d\u304c\u30012016\u5e741\u6708\u304b\u3089\u653e\u9001\u3055\u308c\u308bTV\u30a2\u30cb\u30e1\u300c\u6697\u6bba \u6559\u5ba4\u300d\u7b2c2\u671f\u306e\u30a8\u30f3\u30c7\u30a3\u30f3\u30b0\u30c6\u30fc\u30de\u306b\u306a\u308a\u307e\u3057\u305f\u203c \u51c4\u304f\u5b09\u3057\u3044\u3067\u3059 \u2728\u3002",
+    "Language":"Japanese",
+    "color":[
+        [
+            "white",
+            29297
+        ],
+        [
+            "yellow",
+            9865
+        ]
+    ]
+}

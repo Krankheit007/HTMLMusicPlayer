@@ -1,0 +1,17 @@
+{
+    "Title":"\u7d76\u671b\u6027\uff1a\u30d2\u30fc\u30ed\u30fc\u6cbb\u7642\u85ac",
+    "Creator":"\u30b9\u30ba\u30e0\u305d\u3089\u308b",
+    "Date":"2013-09-04",
+    "Description":"\u30b9\u30ba\u30e0\u4e13\u8f91\u300a\u7d76\u671b\u6027\uff1a\u30d2\u30fc\u30ed\u30fc\u6cbb\u7642\u85ac (\u521d\u56de\u9650\u5b9a\u76e4)\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "red",
+            32118
+        ],
+        [
+            "white",
+            4405
+        ]
+    ]
+}

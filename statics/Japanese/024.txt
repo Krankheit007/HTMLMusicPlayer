@@ -1,0 +1,17 @@
+{
+    "Title":"\u30ad\u30aa\u30af\u30ce\u8703\u6c17\u697c",
+    "Creator":"Stack",
+    "Date":"2014-08-16",
+    "Description":"\u6681Records\u4e13\u8f91\u300a\u53cd\u9006\u306e\u9418 -Last Rebellion-\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "red",
+            38376
+        ],
+        [
+            "yellow",
+            1237
+        ]
+    ]
+}

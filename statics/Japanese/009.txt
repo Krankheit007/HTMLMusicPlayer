@@ -1,0 +1,17 @@
+{
+    "Title":"Niflheimr",
+    "Creator":"xi",
+    "Date":"2013-10-27",
+    "Description":"xi\u4e13\u8f91\u300aAgartha\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "white",
+            22443
+        ],
+        [
+            "blue",
+            11568
+        ]
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Title":"Halcyon",
+    "Creator":"xi",
+    "Date":"2013-12-10",
+    "Description":"Various Artists\u4e13\u8f91\u300aCytus-Hindsight-\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "cyan",
+            32005
+        ],
+        [
+            "white",
+            4351
+        ]
+    ]
+}

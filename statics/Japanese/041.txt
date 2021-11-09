@@ -1,0 +1,17 @@
+{
+    "Title":"NEXT TO YOU",
+    "Creator":"Ken Arai",
+    "Date":"2014-12-24",
+    "Description":"\u6539\u7f16\u81ea\u5ca9\u660e\u5747\u6f2b\u753b\u7684TV\u52a8\u753b\u300a\u5bc4\u751f\u517d \u751f\u547d\u7684\u51c6\u5219\u300b\u539f\u58f0\u5e26\uff0c\u97f3\u4e50\u7531\u300a\u4e0a\u9501\u7684\u623f\u95f4\u300b\u3001\u300a\u5931\u604b\u5de7\u514b\u529b\u804c\u4eba\u300b\u7684\u97f3\u4e50\u62c5\u7eb2Ken Arai\u51fa\u9a6c\uff0c\u4ee5EDM\u4e3a\u57fa\u7840\uff0c\u66f4\u662f\u8bf7\u6765\u591a\u4f4d\u77e5\u540d\u5236\u4f5c\u4eba\u53c2\u4e0e\u5236\u4f5c\u3002",
+    "Language":"Japanese",
+    "color":[
+        [
+            "red",
+            20174
+        ],
+        [
+            "white",
+            10075
+        ]
+    ]
+}

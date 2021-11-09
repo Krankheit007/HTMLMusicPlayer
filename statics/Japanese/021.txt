@@ -1,0 +1,17 @@
+{
+    "Title":"\u7f8e\u3057\u304d\u3082\u306e",
+    "Creator":"Sound Horizon",
+    "Date":"2006-11-22",
+    "Description":"\u4ee5\u201c\u7269\u8bed\u7ec4\u66f2\u201d\u4e3a\u97f3\u4e50\u8868\u73b0\uff0c\u6765\u5f00\u62d3\u65b0\u7684\u5730\u5e73\u7684Sound Horizon\u7684\u4e13\u8f91\u300cROMAN\u300d\u4e2d\u7684\u300c\u6e05\u6668\u4e0e\u591c\u665a\u7684\u7269\u8bed\u300d\u7b495\u9996\u66f2\u76ee\u7684\u6f2b\u753b\u5316\u3002",
+    "Language":"Japanese",
+    "color":[
+        [
+            "yellow",
+            15556
+        ],
+        [
+            "cyan",
+            6521
+        ]
+    ]
+}

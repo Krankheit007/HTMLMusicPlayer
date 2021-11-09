@@ -1,0 +1,17 @@
+{
+    "Title":"99 Glooms",
+    "Creator":"Sta",
+    "Date":"2019-01-12",
+    "Description":"Sta\u4e13\u8f91\u300a99 Glooms\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "black",
+            9103
+        ],
+        [
+            "blue",
+            9061
+        ]
+    ]
+}

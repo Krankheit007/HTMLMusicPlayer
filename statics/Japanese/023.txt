@@ -1,0 +1,17 @@
+{
+    "Title":"\u84bc\u304d\u6708\u6e80\u3061\u3066",
+    "Creator":"AKIRA",
+    "Date":"2014-07-30",
+    "Description":"AKIRA\u4e13\u8f91\u300a\u84bc\u304d\u6708\u6e80\u3061\u3066\u300b",
+    "Language":"Japanese",
+    "color":[
+        [
+            "cyan",
+            21875
+        ],
+        [
+            "blue",
+            14725
+        ]
+    ]
+}
